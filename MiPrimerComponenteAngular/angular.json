@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "b8800cba-e25d-473d-aab9-fa8eb06f21dd"
+    "analytics": "0956d3bf-7c31-426d-affa-c6a158a8739f"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "primerProyectoAngular": {
+    "MiPrimerComponenteAngular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -27,12 +27,7 @@
             ],
             "styles": [
               "src/styles.css"
-            ],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            ]
           },
           "configurations": {
             "production": {
@@ -62,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "primerProyectoAngular:build:production"
+              "buildTarget": "MiPrimerComponenteAngular:build:production"
             },
             "development": {
-              "buildTarget": "primerProyectoAngular:build:development"
+              "buildTarget": "MiPrimerComponenteAngular:build:development"
             }
           },
           "defaultConfiguration": "development"

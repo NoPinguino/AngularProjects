@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-contador',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './contador.component.html',
+  templateUrl: './contador.html',
 })
 export class ContadorComponent {
   contador: number = 0;

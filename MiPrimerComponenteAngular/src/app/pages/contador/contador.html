@@ -9,9 +9,9 @@
     </button>
     <h6 class="text-lg p-6 bg-gray-200 rounded-lg">
       Contador:
-      <span class="font-bold" [ngClass]="contador < 0 ? 'text-red-500' : 'text-black'">{{
-        contador
-      }}</span>
+      <span class="font-bold" [ngClass]="contador < 0 ? 'text-red-500' : 'text-black'"
+        >{{ contador }}</span
+      >
     </h6>
     <button
       (click)="decrementar()"
